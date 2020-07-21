@@ -16,4 +16,9 @@
 		{% endfor %}
 	</ul>
 {% endfor %}
+<a href="{{ url_for('create_venue_form') }}">
+	<button class="btn btn-default btn-sm">
+		Create a New Venue
+	</button>
+</a>
 {% endblock %}

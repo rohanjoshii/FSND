@@ -12,5 +12,10 @@
 		</a>
 	</li>
 	{% endfor %}
+ <a href="{{ url_for('create_artist_form') }}">
+	 <button class="btn btn-default btn-sm">
+		 Create a New Artist
+	 </button>
+ </a>
 </ul>
 {% endblock %}
